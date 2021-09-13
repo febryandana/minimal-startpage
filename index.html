@@ -1,86 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="utf-8" />
     <title>Startpage</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
     <noscript>
-        <style>
-            #clock {
-                display: none;
-            }
-        </style>
+      <style>
+        #clock {
+          display: none;
+        }
+      </style>
     </noscript>
-</head>
+  </head>
 
-<body>
+  <body>
     <main>
-        <div id="top-div">
-            <div id="clock-div">
-                <h1 id="clock">
-                    00/00/0000
-                    00:00:00
-                </h1>
-            </div>
+      <div id="top-div">
+        <div id="clock-div">
+          <h1 id="clock">00/00/0000 00:00:00</h1>
+        </div>
 
-            <form id="search-form" action="https://duckduckgo.com">
-                <div id="search-bar-wrapper">
-                    <input id="search-bar" name="q" type="text" title="Search" />
-                    <button id="search-bar-btn" type="submit">&#128270;</button>
-                </div>
-            </form>
-        </div>
-        <div id="links-container">
-            <section class="link-section">
-                <h2 class="link-section-title red">Category 1</h2>
-                <hr />
-                <ul class="link-list">
-                    <li class="link-list-item"><a class="link" href="#">Website 1</a></li>
-                    <li class="link-list-item"><a class="link" href="#">Website 2</a></li>
-                    <li class="link-list-item"><a class="link" href="#">Website 3</a></li>
-                    <li class="link-list-item"><a class="link" href="#">Website 4</a></li>
-                    <li class="link-list-item"><a class="link" href="#">Website 5</a></li>
-                </ul>
-            </section>
-            <section class="link-section">
-                <h2 class="link-section-title blue">Category 2</h2>
-                <hr />
-                <ul class="link-list">
-                    <li class="link-list-item"><a class="link" href="#">Website 1</a></li>
-                    <li class="link-list-item"><a class="link" href="#">Website 2</a></li>
-                    <li class="link-list-item"><a class="link" href="#">Website 3</a></li>
-                    <li class="link-list-item"><a class="link" href="#">Website 4</a></li>
-                    <li class="link-list-item"><a class="link" href="#">Website 5</a></li>
-                </ul>
-            </section>
-            <section class="link-section">
-                <h2 class="link-section-title green">Category 3</h2>
-                <hr />
-                <ul class="link-list">
-                    <li class="link-list-item"><a class="link" href="#">Website 1</a></li>
-                    <li class="link-list-item"><a class="link" href="#">Website 2</a></li>
-                    <li class="link-list-item"><a class="link" href="#">Website 3</a></li>
-                    <li class="link-list-item"><a class="link" href="#">Website 4</a></li>
-                    <li class="link-list-item"><a class="link" href="#">Website 5</a></li>
-                </ul>
-            </section>
-            <section class="link-section">
-                <h2 class="link-section-title purple">Category 4</h2>
-                <hr />
-                <ul class="link-list">
-                    <li class="link-list-item"><a class="link" href="#">Website 1</a></li>
-                    <li class="link-list-item"><a class="link" href="#">Website 2</a></li>
-                    <li class="link-list-item"><a class="link" href="#">Website 3</a></li>
-                    <li class="link-list-item"><a class="link" href="#">Website 4</a></li>
-                    <li class="link-list-item"><a class="link" href="#">Website 5</a></li>
-                </ul>
-            </section>
-        </div>
+        <form id="search-form" action="https://google.com">
+          <div id="search-bar-wrapper">
+            <input id="search-bar" name="q" type="text" title="Search" placeholder="Search"/>
+          </div>
+        </form>
+      </div>
+
+      <div id="links-container">
+        <section class="link-section">
+          <h2 class="link-section-title blue">Google</h2>
+          <hr />
+          <ul class="link-list">
+            <li class="link-list-item">
+              <a class="link" href="https://classroom.google.com/">Classroom</a>
+            </li>
+            <li class="link-list-item">
+              <a class="link" href="https://drive.google.com/">Drive</a>
+            </li>
+            <li class="link-list-item">
+              <a class="link" href="https://mail.google.com/">Gmail</a>
+            </li>
+            <li class="link-list-item">
+              <a class="link" href="https://translate.google.com/">Translate</a>
+            </li>
+            <li class="link-list-item">
+              <a class="link" href="https://youtube.com/">Youtube</a>
+            </li>
+          </ul>
+        </section>
+        <section class="link-section">
+          <h2 class="link-section-title red">Social Media</h2>
+          <hr />
+          <ul class="link-list">
+            <li class="link-list-item">
+              <a class="link" href="https://web.facebook.com/">Facebook</a>
+            </li>
+            <li class="link-list-item">
+              <a class="link" href="https://instagram.com/">Instagram</a>
+            </li>
+            <li class="link-list-item">
+              <a class="link" href="https://reddit.com/">Reddit</a>
+            </li>
+            <li class="link-list-item">
+              <a class="link" href="https://twitter.com/">Twitter</a>
+            </li>
+            <li class="link-list-item">
+              <a class="link" href="https://web.whatsapp.com/">Whatsapp</a>
+            </li>
+          </ul>
+        </section>
+        <section class="link-section">
+          <h2 class="link-section-title yellow">Education</h2>
+          <hr />
+          <ul class="link-list">
+            <li class="link-list-item">
+              <a class="link" href="https://eling.ub.ac.id/">Eling</a>
+            </li>
+            <li class="link-list-item">
+              <a class="link" href="https://filkom.ub.ac.id/">Filkom UB</a>
+            </li>
+            <li class="link-list-item">
+              <a class="link" href="https://github.com/">GitHub</a>
+            </li>
+            <li class="link-list-item">
+              <a class="link" href="https://scholar.google.co.id/"
+                >Google Scholar</a
+              >
+            </li>
+            <li class="link-list-item">
+              <a class="link" href="https://siam.ub.ac.id/">SIAM UB</a>
+            </li>
+          </ul>
+        </section>
+        <section class="link-section">
+          <h2 class="link-section-title green">Miscellaneous</h2>
+          <hr />
+          <ul class="link-list">
+            <li class="link-list-item">
+              <a class="link" href="https://dev.to/">Dev.to</a>
+            </li>
+            <li class="link-list-item">
+              <a class="link" href="https://kumparan.com/">Kumparan</a>
+            </li>
+            <li class="link-list-item">
+              <a class="link" href="https://sci-hub.se/">Sci-hub</a>
+            </li>
+            <li class="link-list-item">
+              <a class="link" href="https://tirto.id/">Tirto.id</a>
+            </li>
+            <li class="link-list-item">
+              <a class="link" href="https://tokopedia.com/">Tokopedia</a>
+            </li>
+          </ul>
+        </section>
+      </div>
     </main>
 
     <script src="js/main.js"></script>
-</body>
-
+  </body>
 </html>
